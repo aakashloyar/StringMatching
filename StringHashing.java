@@ -1,5 +1,8 @@
 package StringMatching;
 import java.util.*;
+
+//we can also use it in xor hashing
+// in xor hashing collision probablity will be 2^(-number of bits)// 2^(-64) or 2^(-128)
 public class StringHashing {
     public static void main(String[] args) {
         StringBuilder pat=new StringBuilder("My");
